@@ -1,0 +1,106 @@
+.header {
+    background-color: #2b4772
+}
+.header a{
+    color: white;
+    opacity: 0.9;
+    font-size: 18px;
+}
+.header a:hover{
+    text-shadow: 1px  white;
+    opacity: 1;
+    transition: all 0.1s linear;
+    color: rgb(255, 255, 255);
+}
+
+.giris{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 2rem 1rem;
+}
+.kutu{
+    height: 10em;
+    padding: 0;
+    opacity: 0.9;
+   
+}
+.kutu:hover{
+    opacity: 1;
+}
+.resim{
+    height: 10em;
+    
+    margin: 0;
+}
+.resim img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.yazi{
+    padding-top: 1.5rem;
+    height: 10em;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    margin: 0;
+}
+.yazi p{
+    text-align: justify;
+}
+.yazi a{
+    color: rgb(197, 75, 38);
+}
+.yazi a:hover{
+    text-decoration: none;
+}
+.hobi-row{
+    margin: 8rem 0;
+}
+.footer{
+    height: 3em;
+    background-color: #403b57;
+}
+.footer p{
+    height: 100%;
+    line-height: 3em;
+    padding-left: 1rem;
+    color: rgb(255, 255, 255);
+}
+.yukari{
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    z-index: 1000;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #30221E;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 2rem;
+    color: rgb(255, 251, 251);
+}
+.yukari:hover{
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 760px){
+    .kutu:not(:last-child){
+        margin-bottom: 12em;
+    }
+    .hobi-row{
+        margin-bottom: 12em;
+    }
+}
+.giris{
+    color: rgb(0, 0, 0);
+}
+.kutu{
+    color: rgb(0, 0, 0);
+
+}
